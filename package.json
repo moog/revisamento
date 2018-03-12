@@ -1,0 +1,26 @@
+{
+  "name": "revisamento",
+  "version": "0.1.0",
+  "private": false,
+  "author": "@moog",
+  "main": "electron-starter.js",
+  "homepage": "./",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "electron": "^1.8.3",
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 && electron .",
+    "electron": "electron ."
+  },
+  "devDependencies": {}
+}
